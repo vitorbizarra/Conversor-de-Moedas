@@ -1,0 +1,35 @@
+<!-- Cotações dia 05/07/2021 -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js"></script>
+    <title>Conversor de Moedas</title>
+</head>
+    <body>
+        <main class="container">
+        <h1 id="h1Resultado">$0.00</h1>
+            <form action="">
+                <label for="name">
+                    <span>Valor em R$:</span>
+                    <input type="number" id="real" name="real" placeholder="Digite seu número">
+                </label>
+
+                <label for="para">
+                    <span>Para:</span>
+                    <select id="moeda">
+                        <option selected disabled value="">Selecione</option>
+                        <option value="dol">Dólar</option>
+                        <option value="euro">Euro</option>
+                        <option value="peso">Pesos Argentinos</option>
+                        <option value="yene">Yene</option>
+                        <option value="wonsulcor">Won Sul-coreano</option>
+                    </select>
+                </label>
+                <button type="button" id="btnCalcular"  onclick="calcular()">Calcular</button>
+            </form>
+        </main>
+    </body>
+</html>

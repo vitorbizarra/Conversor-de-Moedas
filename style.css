@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #fc6bb0, #513a95);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container{
+    background: white;
+    min-width: 350px;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: #513a95;
+}
+
+main h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    color: #513a95;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.container label {
+    display: flex;
+    flex-direction: column;
+}
+
+main.container label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+}
+
+main.container input {
+    background: #513a95;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+
+form input::placeholder{
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button,  input[type=number]::-webkit-outer-spin-button {    -webkit-appearance: none;  }
+
+main.container select {
+    background: #513a95;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 1rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 4rem;
+    border: none;
+    border-radius: 4px;
+    background: #513a95;
+    color: white;
+    font-size: 0.9rem;
+    transition: all 0.3s ease-in-out;
+    height: 3rem;
+}
+
+button:hover{
+    background: #fc6bb0;
+    letter-spacing: 0.5px;
+}
